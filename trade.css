@@ -1,0 +1,51 @@
+body 
+{
+	background-color: blue;
+}
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	text-align: center;
+}
+#sidebar
+{
+	list-style: none;
+	float: left;
+}
+.sideb
+{
+	margin-right: 20px;
+	background-color: white;
+	padding: 2px 2px 2px 2px;
+}
+p 
+{
+	margin-left: 30%;
+}
+#search
+{
+	padding: 2px 2px 2px 2px;
+	background-color: white;
+	margin-right: 5%;
+	padding-right: 50%;
+	border-width: 3px;
+	border-style: solid;
+}
+#welcome
+{
+	position: relative;
+	margin-left: 40%;
+	text-align: center;
+	font-size: 120%;
+	font-weight: bold;	
+}
+#login
+{
+	float: right;
+}
+.logb
+{
+	display: inline;
+	background-color: gray;
+}
