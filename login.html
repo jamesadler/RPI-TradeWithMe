@@ -14,17 +14,19 @@
 			<li class="sideb"><a href="sell.html">Sell!</a></li>
 			<li>[AD SPACE]</li>
 		</ul>
-		<span id="search">Search</span>
+		<input type="search" size="50" id="search" placeholder="Search">
 		<ul id="login">
 			<li class="logb"><a href="login.html">Login</a></li>
 			<li class="logb"><a href="register.html">Register</a></li>
 		</ul>
-		<div class="form">
-			<h3>Login</h3>
-			<p class="field">RPI email</p>
-			<p class="field">Password</p>
-			<div class="butt">Login</div>
-			<div class="butt">Register</div>
-		</div>
+		<h3>Login</h3>
+		<form id="logform">
+			<fieldset>
+				<div class="butti"><input type="email" placeholder="RPI email" autofocus></div>
+				<div class="butti"><input type="password" placeholder="Password"></div>
+				<div class="buttl"><input type="submit" value="Login"></div>
+				<div class="buttr"><input type="button" value="Register"></div>
+			</fieldset>
+		</form>
 	</body>
 </html>
