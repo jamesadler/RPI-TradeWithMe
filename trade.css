@@ -8,10 +8,19 @@ h1
 	font-weight: bold;
 	text-align: center;
 }
+h2
+{
+	margin-left: 35%;
+}
+h3
+{
+	margin-left: 45%;
+}
 #sidebar
 {
 	list-style: none;
 	float: left;
+	height: 100%;
 }
 .sideb
 {
@@ -19,18 +28,60 @@ h1
 	background-color: white;
 	padding: 2px 2px 2px 2px;
 }
-p 
+.info
 {
-	margin-left: 30%;
+	margin-left: 5%;
+	text-align: center;
+}
+.form
+{
+	background-color: gray;
+	border-style: solid;
+	border-width: 2px;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 5%;
 }
 #search
 {
-	padding: 2px 2px 2px 2px;
-	background-color: white;
-	margin-right: 5%;
-	padding-right: 50%;
-	border-width: 3px;
+
+}
+.field
+{
 	border-style: solid;
+	border-width: 1px;
+	width: 15%;
+	margin-left: 37.5%;
+	color: gray;
+	background-color: white;
+}
+.butt
+{
+	text-align: center;
+	background-color: gray;
+	border-style: solid;
+	border-width: 1px;
+	width: 15%;
+	margin-left: 37.5%;
+}
+.butti
+{
+	margin-left: 37.5%;
+	margin-top: 5px;
+}
+.buttl
+{
+	margin-left: 40%;
+	margin-top: 5px;
+}
+.buttr
+{
+	margin-left: 39.5%;
+	margin-top: 5px;
+}
+#logform
+{
+	margin-top: 5%;
 }
 #welcome
 {
@@ -44,8 +95,22 @@ p
 {
 	float: right;
 }
+#onleft
+{
+	margin-left: 10%;
+}
 .logb
 {
 	display: inline;
 	background-color: gray;
+}
+.options
+{
+	border-style: solid;
+	border-width: 5px;
+	padding-right: 5%;
+	height: 80%;
+	float: left;
+	background-color: red;
+	position: relative;
 }
