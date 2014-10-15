@@ -1,0 +1,39 @@
+<!doctype HTML>
+<html>
+	<head>
+		<title>RPI TradeWithme</title>
+		<link href="trade.css" rel=stylesheet type="text/css"/>
+	</head>
+
+	<body>
+		<h1>RPI TradeWithme</h1>
+		<ul id="sidebar">
+			<li class="sideb"><a href="index.html">Home</a></li>
+			<li class="sideb"><a href="profile.html">Profile</a></li>
+			<li class="sideb"><a href="buy.html">Buy!</a></li>
+			<li class="sideb"><a href="sell.html">Sell!</a></li>
+			<li>[AD SPACE]</li>
+		</ul>
+		<form id="search" action="search.php" method="POST">
+			<input type="text" name="search_bar" />
+			<input type="button" value="Search" />
+		</form>
+		<ul id="login">
+			<li class="logb"><a href="login.html">Login</a></li>
+			<li class="logb"><a href="register.html">Register</a></li>
+		</ul>
+
+		<form id="profedit">
+			<fieldset> <!--Placeholders will be set to the user's current value for that field with jquery, should they already have a value for it-->
+				<label for="phone">Phone Number:</label><input id="phone" type="text" placeholder="XXX-XXX-XXXX">
+				<label for="email2">Secondary Email:</label><input id="email2" type="email" placeholder="example@email.com">
+				<label for="bday">Birthday:</label><input id="bday" type="date">
+				<label for="bdaytoggle">Show Birthday:</label><input type="checkbox">
+				<label for="gender">Gender:</label><input id="gender" type="text">
+				<label for="gendertoggle">Show Gender:</label><input type="checkbox">
+				<div><input type="password" class="buttr" placeholder="Confirm Password"></div>
+				<div><input type="submit" class="buttl" value="Submit Changes"></div>
+			</fieldset>
+		</form>
+	</body>
+</html>
