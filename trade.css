@@ -1,4 +1,4 @@
-body 
+body
 {
 	background-color: blue;
 }
@@ -19,7 +19,7 @@ h1
 	background-color: white;
 	padding: 2px 2px 2px 2px;
 }
-p 
+p
 {
 	margin-left: 30%;
 }
@@ -38,11 +38,14 @@ p
 	margin-left: 40%;
 	text-align: center;
 	font-size: 120%;
-	font-weight: bold;	
+	font-weight: bold;
 }
-#login
+#loginForm
 {
-	float: right;
+	display: none;
+	/*float: right;*/
+	list-style-type: none;
+
 }
 .logb
 {

@@ -2,6 +2,12 @@
 <html>
     <head>
     <title>RPI TradeWithMe</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="jquery-ui-1.11/jquery-ui.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+
     <link href="trade.css" rel=stylesheet type="text/css"/>
   </head>
 
@@ -13,19 +19,32 @@
       <li class="sideb">Buy!</li>
       <li class="sideb">Sell!</li>
     </ul>
-    
+
     <form id="search" action="search.php" method="POST">
-      <input type="text" name="search_bar" />
-      <input type="button" value="Search" />
+      <input type="search" name="search_bar" placeholder="Search for..." />
+      <button class="btn btn-xs btn-default" type="submit">Search</button>
     </form>
 
     <ul id="login">
-      <li class="logb">Login</li>
+      <li class="logb" onclick="login(this);">Login</li>
       <li class="logb">Register</li>
     </ul>
+
     <div>
       <span id="welcome">Welcome!</div>
       <p>information</p>
     </div>
+
+    <div id="loginDialog" title="Login">
+      <ul id="loginForm">
+        <li><input type="email" id="emailAddress" /></li>
+        <li><input type="password" id="password" /></li>
+        <li><button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button></li>
+      </ul>
+    </div>
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="jquery-ui-1.11/jquery-ui.min.js"></script>
+    <script src="functions.js"></script>
   </body>
 </html>
