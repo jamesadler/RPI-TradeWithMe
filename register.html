@@ -14,17 +14,23 @@
 			<li class="sideb"><a href="sell.html">Sell!</a></li>
 			<li>[AD SPACE]</li>
 		</ul>
-		<span id="search">Search</span>
+		<form id="search" action="search.php" method="POST">
+			<input type="text" name="search_bar" />
+			<input type="button" value="Search" />
+		</form>
 		<ul id="login">
 			<li class="logb"><a href="login.html">Login</a></li>
 			<li class="logb"><a href="register.html">Register</a></li>
 		</ul>
-		<div class="form">
-			<h3>Registration</h3>
-			<p class="field">RPI email</p>
-			<p class="field">Password</p>
-			<p class="field">Confirm Password</p>
-			<div class="butt">Submit</div>
-		</div>
+		
+		<h3>Registration</h3>
+		<form id="regform">
+			<fieldset>
+				<div class="butti"><input type="email" placeholder="RPI email" autofocus></div>
+				<div class="butti"><input type="password" placeholder="Password"></div>
+				<div class="butti"><input type="password" placeholder="Confirm Password"></div>
+				<div class="buttl"><input type="submit" value="Submit"></div>
+			</fieldset>
+		</form>
 	</body>
 </html>
