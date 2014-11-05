@@ -13,7 +13,10 @@
 			<li class="sideb">Buy!</li>
 			<li class="sideb">Sell!</li>
 		</ul>
-		<span id="search">Search</span>
+		<form id="search" action="search.php" method="POST">
+      		<input type="search" name="search_bar" placeholder="Search for..." />
+      		<button class="btn btn-xs btn-default" type="submit">Search</button>
+    	</form>
 		<ul id="login">
 			<li class="logb">Login</li>
 			<li class="logb">Register</li>

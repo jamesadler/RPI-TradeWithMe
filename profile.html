@@ -1,28 +1,43 @@
 <!doctype HTML>
 <html>
-  	<head>
-		<title>RPI TradeWithme</title>
-		<link href="trade.css" rel=stylesheet type="text/css"/>
-	</head>
+  <head>
+    <title>RPI TradeWithMe</title>
 
-	<body>
-		<h1>RPI TradeWithme</h1>
-		<ul id="sidebar">
-			<li class="sideb"><a href="index.html">Home</a></li>
-			<li class="sideb"><a href="profile.html">Profile</a></li>
-			<li class="sideb"><a href="buy.html">Buy!</a></li>
-			<li class="sideb"><a href="sell.html">Sell!</a></li>
-			<li>[AD SPACE]</li>
-		</ul>
-		<span id="search">Search</span>
-		<ul id="login">
-			<li class="logb"><a href="login.html">Login</a></li>
-			<li class="logb"><a href="register.html">Register</a></li>
-		</ul>
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./jquery-ui-1.11.1.custom/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href ="./jquery-ui-1.11.1.custom/jquery-ui.structure.css">
+
+    <link href="trade.css" rel=stylesheet type="text/css"/>
+  </head>
+  <body>
+  <!-- SITE LAYOUT -->
+    <h1>RPI TradeWithMe</h1>
+    <ul  class="menu ui-menu">
+      <li class="sideb "><a href="index.html">Home</a></li>
+      <li class="sideb "><a href="profile.html">Profile</a></li>
+      <li class="sideb "><a href="buy.html">Buy!</a></li>
+      <li class="sideb "><a href="sell.html">Sell!</a></li>
+      <li class="sideb">[AD SPACE]</li>
+    </ul>
+
+    <form id="search" action="search.php" method="POST">
+      <input type="search" name="search_bar" placeholder="Search for..." />
+      <button class="btn btn-xs btn-default" type="submit">Search</button>
+    </form>
+
+    <ul id="login">
+      <li class="logb"><a href="login.html">Login</a></li>
+      <li class="logb"><a href="register.html">Register</a></li>
+    </ul>
+    <div class="border"> </div>
+  <!-- END SITE LAYOUT -->
+
 		<h2>Your Profile</h2>
 		<div>
 			stuff and things
 		</div>
-		<div class="butt">Edit</div>
+		<div class="butt"><a href="edit.html">Edit</a></div>
 	</body>
 </html>

@@ -541,10 +541,11 @@ button.ui-button::-moz-focus-inner {
 }
 .ui-menu {
 	list-style: none;
-	padding: 0;
+	padding-left: 10px;
 	margin: 0;
 	display: block;
 	outline: none;
+	float: left;
 }
 .ui-menu .ui-menu {
 	position: absolute;
